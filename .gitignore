@@ -3,6 +3,7 @@ node_modules/
 dist/
 target/
 *.jar
+.hallmark/
 
 # Environment Variables
 .env
