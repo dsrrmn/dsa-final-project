@@ -1,0 +1,37 @@
+# Dependencies & Build Outputs
+node_modules/
+dist/
+target/
+*.jar
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# Build Tooling
+.mvn/
+
+# IDE & Editor Configurations
+.idea/
+.vscode/
+
+# OS Metadata
+.DS_Store
+jdk-*/
+*.tar.gz
+*.zip
+node_modules/
+target/
+.env
+.env.*
+
+# Ignore JDK, archives, build artifacts, and secrets everywhere
+**/jdk-*/
+jdk-*/
+*.tar.gz
+*.zip
+**/node_modules/
+**/target/
+.env
+.env.*
